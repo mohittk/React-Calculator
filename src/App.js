@@ -25,6 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <div className="title">React Calculator</div>
         <div className="calc-wrapper">
           <Input input={this.state.input} />
           <div className="row">
